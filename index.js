@@ -95,7 +95,6 @@ bot.on('message', (ctx) =>{
           }
 					break;
 				case 'message_sender':
-          // message sender
           // 90327755
           message = message.replace(' ', '%20')
           console.log(message);
